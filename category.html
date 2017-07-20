@@ -1,0 +1,1576 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Basic page needs
+	============================================ -->
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <meta name="author" content="Magentech">
+    <meta name="robots" content="index, follow" />
+   
+	<!-- Mobile specific metas
+	============================================ -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<!-- Favicon
+	============================================ -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+	
+	<!-- Google web fonts
+	============================================ -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	
+    <!-- Libs CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="css/themecss/lib.css" rel="stylesheet">
+	<link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+	
+	<!-- Theme CSS
+	============================================ -->
+   	<link href="css/themecss/so_megamenu.css" rel="stylesheet">
+    <link href="css/themecss/so-categories.css" rel="stylesheet">
+	<link href="css/themecss/so-listing-tabs.css" rel="stylesheet">
+	
+		<link id="color_scheme" href="css/theme.css" rel="stylesheet">
+		
+	<link href="css/responsive.css" rel="stylesheet">
+	
+   
+	
+</head>
+
+<body class="res layout-subpage banners-effect-6">
+	<div id="wrapper" class="wrapper-full banners-effect-7">
+	<!-- Header Container  -->
+<header id="header" class=" variantleft type_1">
+
+
+<!-- Header center -->
+	<div class="header-center left">
+	<div class="container">
+		<div class="row">
+			<!-- Logo -->
+			<div class="navbar-logo col-md-3 col-sm-12 col-xs-12">
+				<a href="index.html"><img src="image/demo/logos/theme_logo.png" title="Your Store" alt="Your Store" /></a>
+			</div>
+			<!-- //end Logo -->
+
+			<!-- Search -->
+			<div id="sosearchpro" class="col-sm-9  col-md-6 search-pro">
+				<form method="GET" action="index.html">
+					<div id="search0" class="search input-group">
+						<div class="select_category filter_type icon-select">
+							<select class="no-border" name="category_id">
+								<option value="0">所有类别</option>
+								<option value="78">衣服</option>
+								<option value="77">裤子</option>
+								<option value="82">鞋子</option>
+								<option value="80">智能手机与电脑</option>
+								<option value="81">户外运动</option>
+								<option value="79">电子产品</option>
+								<option value="20">汽车</option>
+								<option value="76">家居</option>
+								<option value="26">首饰</option>
+								<option value="27">结婚戒指</option>
+							</select>
+						</div>
+
+						<input class="autosearch-input form-control" type="text" value="" size="50" autocomplete="off" placeholder="瞎买一下" name="search">
+						<span class="input-group-btn">
+						<button type="submit" class="button-search btn btn-primary" name="submit_search"><i class="fa fa-search"></i></button>
+						</span>
+					</div>
+					<input type="hidden" name="route" value="product/search" />
+				</form>
+			</div>
+			<!-- //end Search -->
+
+			<!-- Secondary menu -->
+			<div class="col-md-3 col-sm-3 col-xs-12 shopping_cart pull-right">
+				<!--cart-->
+					<div class="header-top-right collapsed-block text-right  col-sm-11 col-xs-12 compact-hidden">
+				<h5 class="tabBlockTitle visible-xs">更多<a class="expander " href="#TabBlock-1"><i class="fa fa-angle-down"></i></a></h5>
+				<div class="tabBlock" id="TabBlock-1">
+					<ul class="top-link list-inline">
+						<li class="account" id="my_account">
+							<a href="#" title="我的账号" class="btn btn-xs dropdown-toggle" data-toggle="dropdown"> <span >我的账号</span> <span class="fa fa-angle-down"></span></a>
+							<ul class="dropdown-menu ">
+								<li><a href="login.html"><i class="fa fa-user"></i> 登陆</a></li>
+								<li><a href="register.html"><i class="fa fa-pencil-square-o"></i> 编辑</a></li>
+							</ul>
+						</li>
+						<li class="wishlist"><a href="#" id="wishlist-total" class="top-link-wishlist" title="我的愿望清单(2)"><span>愿望清单 (2)</span></a></li>
+						<li class="checkout"><a href="#" class="top-link-checkout" title="查看"><span >查看</span></a></li>
+						<li class="login"><a href="#" title="购物车"><span >购物车</span></a></li>
+					</ul>
+				</div>
+ </div>
+				<!--//cart-->
+			</div>
+		</div>
+
+	</div>
+	</div>
+<!-- //Header center -->
+
+<!-- Header Bottom -->
+<div class="header-bottom">
+	<div class="container">
+		<div class="row">
+			
+			<div class="sidebar-menu col-md-3 col-sm-6 col-xs-12 ">
+				<div class="responsive so-megamenu ">
+					<div class="so-vertical-menu no-gutter compact-hidden">
+						<nav class="navbar-default">	
+							
+							<div class="container-megamenu vertical open">
+								<div id="menuHeading">
+									<div class="megamenuToogle-wrapper">
+										<div class="megamenuToogle-pattern">
+											<div class="container">
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+												所有类别
+												<i class="fa pull-right arrow-circle fa-chevron-circle-up"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="navbar-header">
+									<button type="button" id="show-verticalmenu" data-toggle="collapse" class="navbar-toggle fa fa-list-alt">
+										
+									</button>
+									所有类别	
+								</div>
+								<div class="vertical-wrapper" >
+									<span id="remove-verticalmenu" class="fa fa-times"></span>
+									<div class="megamenu-pattern">
+										<div class="container">
+											<ul class="megamenu">
+												<li class="item-vertical style1 with-sub-menu hover">
+													<p class="close-menu"></p>
+													<a href="#" class="clearfix">
+														<img src="image/theme/icons/9.png" alt="icon">
+														<span>汽车配件</span>
+														<b class="caret"></b>
+													</a>
+													<div class="sub-menu" data-subwidth="100" >
+														<div class="content" >
+															<div class="row">
+																<div class="col-sm-12">
+																	<div class="row">
+																		<div class="col-md-4 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+										
+
+										
+
+		<a href="#"  class="main-menu">汽车轮胎</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" >倍耐力</a></li>
+										
+
+										
+
+			<li><a href="#" >马牌</a></li>
+										
+
+										
+
+			<li><a  href="#" >米麒麟</a></li>
+										
+
+										
+
+			<li><a href="#" >固特异</a></li>
+										
+
+										
+
+			<li><a href="#" >万力</a></li>
+										
+
+										
+
+			<li><a href="#" >邓普</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>
+																					<li>
+										
+
+										
+
+		<a href="#"  class="main-menu">机油</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" >德国福斯</a></li>
+										
+
+										
+
+			<li><a href="#" >埃克森美孚</a></li>
+										
+
+										
+
+			<li><a href="#" >壳牌</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>
+																				</ul>
+																			</div>
+																		</div>
+																		<div class="col-md-4 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+										
+
+										
+
+		<a href="#"  class="main-menu">皮座</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" >吉利新</a></li>
+										
+
+										
+
+			<li><a href="#" >若利亚</a></li>
+										
+
+										
+
+			<li><a href="#" >奥迪专用</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>
+																					<li>
+										
+
+										
+
+		<a href="#" class="main-menu">其他</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" >遮阳步</a></li>
+										
+
+										
+
+			<li><a href="#" >汽车香水</a></li>
+										
+
+										
+
+			<li><a href="#" >保险盒</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>																			
+																				</ul>
+																			</div>
+																		</div>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="item-vertical">
+													<p class="close-menu"></p>
+													<a href="#" class="clearfix">
+														<img src="image/theme/icons/10.png" alt="icon">
+														<span>运动户外</span>
+														
+													</a>
+												</li>
+												<li class="item-vertical with-sub-menu hover">
+													<p class="close-menu"></p>
+													<a href="#" class="clearfix">
+														<span class="label"></span>
+														<img src="image/theme/icons/3.png" alt="icon">
+														<span>健康美容</span>
+														<b class="caret"></b>
+													</a>
+													<div class="sub-menu" data-subwidth="60" >
+														<div class="content">
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="row">
+																		<div class="col-md-12 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+										
+
+										
+
+		<a href="#" onclick="window.location = '81';" class="main-
+menu">书籍</a>
+										
+
+										
+
+		<ul>
+					
+			<li><a href="#" onclick="window.location = 
+
+'33_63';">养生书籍</a></li>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = 
+
+'24_64';">瑜伽书籍</a></li>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = '17';">
+
+烹饪书籍</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>	
+																				<li>
+										
+
+										
+
+		<a href="#" onclick="window.location = '18_46';" 
+
+class="main-menu">保健品</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = 
+
+'25_28';">补血</a></li>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = '80';">
+
+补钙</a></li>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = 
+
+'24_66';">维生素</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>
+																					
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																
+																</div>
+															</div>
+														</div>
+													</li>
+													
+													<li class="item-vertical css-menu with-sub-menu hover">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															
+															<img src="image/theme/icons/2.png" alt="icon">
+															<span>智能手机和平板电脑</span>
+															<b class="caret"></b>
+														</a>
+														<div class="sub-menu" data-subwidth="30" style="width: 270px; display: none; right: 0px;">
+															<div class="content" style="display: none;">
+																<div class="row">
+																	<div class="col-sm-12">
+																		<div class="row">
+																			<div class="col-sm-12 hover-menu">
+																				<div class="menu">
+																					<ul>
+																						<li>
+																							<a href="#" class="main-menu">宏碁</a>
+																						</li>
+																						<li>
+																							<a href="#" class="main-menu">三星</a>
+																						</li>
+																						<li>
+																							<a href="#" class="main-menu">苹果</a>
+																						</li>
+																						<li>
+																							<a href="#" class="main-menu">小米</a>
+																						</li>
+																						<li>
+																							<a href="#" class="main-menu">惠普</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</li>
+													<li class="item-vertical">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/11.png" alt="icon">
+															<span>包</span>
+															
+														</a>
+													</li>
+													<li class="item-vertical">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/4.png" alt="icon">
+															<span>户外旅行设备</span>
+														</a>
+													</li>
+													<li class="item-vertical">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/5.png" alt="icon">
+															<span>电视</span>
+														</a>
+													</li>
+													<li class="item-vertical" >
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/7.png" alt="icon">
+															<span>玩具</span>
+														</a>
+													</li>
+													<li class="item-vertical" style="display: none;">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/6.png" alt="icon">
+															<span>电子设备</span>
+														</a>
+													</li>
+													<li class="item-vertical" >
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/8.png" alt="icon">
+															<span>电子设备 </span>
+														</a>
+													</li>
+													<li class="item-vertical" >
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/12.png" alt="icon">
+															<span>珠宝与首饰</span>
+														</a>
+													</li>
+												
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</nav>
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- Main menu -->
+			<div class="megamenu-hori header-bottom-right  col-md-9 col-sm-6 col-xs-12 ">
+				<div class="responsive so-megamenu ">
+	<nav class="navbar-default">
+		<div class=" container-megamenu  horizontal">
+			<div class="navbar-header">
+				<button type="button" id="show-megamenu" data-toggle="collapse" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				Navigation		
+			</div>
+			
+			<div class="megamenu-wrapper">
+				<span id="remove-megamenu" class="fa fa-times"></span>
+				<div class="megamenu-pattern">
+					<div class="container">
+						<ul class="megamenu " data-transition="slide" data-animationtime="250">
+							
+						
+							<li class="with-sub-menu hover">
+								<p class="close-menu"></p>
+								<a href="#" class="clearfix">
+									<strong>我的瞎买	</strong>
+									
+									<b class="caret"></b>
+								</a>
+								<div class="sub-menu" style="width: 40%; ">
+									<div class="content" >
+										<div class="row">
+											<div class="col-md-6">
+												<ul class="row-list">
+													<li><a class="subcategory_item" href="#">待返修订单</a></li>
+													<li><a class="subcategory_item" href="#">返修退换货</a></li>
+													<li><a class="subcategory_item" href="#">降价商品</a></li>
+													
+												</ul>
+											</div>
+											<div class="col-md-6">
+												<ul class="row-list">
+													<li><a class="subcategory_item" href="#">我的售后</a></li>
+													<li><a class="subcategory_item" href="#">在线客服</a></li>
+													<li><a class="subcategory_item" href="#">意见建议</a></li>
+													
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							
+							
+							<li class="with-sub-menu hover">
+								<p class="close-menu"></p>
+								<a href="#" class="clearfix">
+									<strong>超划算</strong>
+									<span class="label"> Hot</span>
+									<b class="caret"></b>
+								</a>
+								<div class="sub-menu" style="width: 100%; display: none;">
+									<div class="content" style="display: none;">
+										<div class="row">
+											<div class="col-md-8">
+												<div class="row">
+													<div class="col-md-6 static-menu">
+														<div class="menu">
+															<ul>
+																<li>
+																	<a href="#"  class="main-menu">智能手机</a>
+																	<ul>
+																		<li><a href="#">苹果</a></li>
+																		<li><a href="#" >三星</a></li>
+																		<li><a href="#" >小米</a></li>
+																	</ul>
+																</li>
+																<li>
+																	<a href="#"  class="main-menu">运动品牌</a>
+																	<ul>
+																		<li><a href="#" >爱迪达斯</a></li>
+																		<li><a href="#" >耐克</a></li>
+																		<li><a href="#" >361度</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-6 static-menu">
+														<div class="menu">
+															<ul>
+																<li>
+																	<a href="#" class="main-menu">电子产品</a>
+																	<ul>
+																		<li><a href="#" >单反</a></li>
+																		<li><a href="#" >手机充电器</a></li>
+																		<li><a href="#" >蓝牙耳机</a></li>
+																	</ul>
+																</li>
+																<li>
+																	<a href="#"  class="main-menu">家居</a>
+																	<ul>
+																		<li><a href="#" >沙发</a></li>
+																		<li><a href="#" >厨具</a></li>
+																		<li><a href="#" >电视</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<span class="title-submenu">畅销商品</span>
+												<div class="col-sm-12 list-product">
+													<div class="product-thumb">
+														<div class="image pull-left">
+															<a href="#"><img src="image/demo/shop/product/35.jpg" width="80" alt="Filet Mign" title="Filet Mign" class="img-responsive"></a>
+														</div>
+														<div class="caption">
+															<h4><a href="#">Filet Mign</a></h4>
+															<div class="rating-box">
+																<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															</div>
+															<p class="price">¥1,202.00</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 list-product">
+													<div class="product-thumb">
+														<div class="image pull-left">
+															<a href="#"><img src="image/demo/shop/product/W1.jpg" width="80" alt="Dail Lulpa" title="Dail Lulpa" class="img-responsive"></a>
+														</div>
+														<div class="caption">
+															<h4><a href="#">Dail Lulpa</a></h4>
+															<div class="rating-box">
+																<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+															</div>
+															<p class="price">¥7800.00</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 list-product">
+													<div class="product-thumb">
+														<div class="image pull-left">
+															<a href="#"><img src="image/demo/shop/product/141.jpg" width="80" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive"></a>
+														</div>
+														<div class="caption">
+															<h4><a href="#">佳能 EOS 5D</a></h4>
+															
+															<div class="rating-box">
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+															</div>
+															<p class="price">
+																<span class="price-new">¥600.00</span>
+																<span class="price-old">¥800.00</span>
+																
+															</p>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="">
+								<p class="close-menu"></p>
+								<a href="#" class="clearfix">
+									<strong>达人推荐</strong>
+									<span class="label"></span>
+								</a>
+							</li>
+							
+							<li class="hidden-md">
+								<p class="close-menu"></p>
+								<a href="#" class="clearfix">
+									<strong>购买主题</strong>
+									
+								</a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>
+									</div>
+			<!-- //end Main menu -->
+			
+		</div>
+	</div>
+
+</div>
+
+<!-- Navbar switcher -->
+<!-- //end Navbar switcher -->
+	</header>
+     
+
+
+   
+	<!-- //Header Container  -->
+	<!-- Main Container  -->
+	<div class="main-container container">
+		<ul class="breadcrumb">
+			<li><a href="#"><i class="fa fa-home"></i></a></li>
+			<li><a href="#">智能手机和平板电脑</a></li>
+		</ul>
+		
+		<div class="row">
+			<!--Left Part Start -->
+			<aside class="col-sm-4 col-md-3" id="column-left">
+				<div class="module menu-category titleLine">
+	<h3 class="modtitle">全部类别</h3>
+	<div class="modcontent">
+		<div class="box-category">
+			<ul id="cat_accordion" class="list-group">
+				<li class="hadchild"><a href="category.html" class="cutom-parent">汽车配件</a>   <span class="button-view  fa fa-plus-square-o"></span>
+					<ul style="display: block;">
+						<li><a href="category.html">轮胎</a></li>
+						<li><a href="category.html">皮座</a></li>
+						<li><a href="category.html">机油</a></li>
+						<li><a href="category.html">内饰</a></li>
+					</ul>
+				</li>
+				<li class=""><a href="category.html" class="cutom-parent">运动户外</a>  <span class="dcjq-icon"></span></li>
+				<li class="hadchild"><a href="category.html" class="cutom-parent">健康美容</a>   <span class="button-view  fa fa-plus-square-o"></span>
+					<ul style="display: none;">
+						<li><a href="category.html">补血胶囊</a></li>
+						<li><a href="category.html">补钙</a></li>
+						<li><a href="category.html">瑜伽书籍</a></li>
+						<li><a href="category.html">烹饪书籍</a></li>
+						<li><a href="category.html">红豆</a></li>
+					</ul>
+				</li>
+				<li class="hadchild"><a href="category.html" class="cutom-parent">智能手机和平板电脑</a>  <span class="button-view  fa fa-plus-square-o"></span>
+					<ul style="display: none;">
+						<li><a href="category.html">苹果</a></li>
+						<li><a href="category.html">三星</a></li>
+						<li><a href="category.html">宏碁</a></li>
+						<li><a href="category.html">佳能</a></li>
+					</ul>
+				</li>
+				<li class=""><a href="category.html" class="cutom-parent">包</a>  <span class="dcjq-icon"></span></li>
+				<li class=""><a href="category.html" class="cutom-parent">户外旅行设备</a>    <span class="dcjq-icon"></span></li>
+				<li class=""><a href="category.html" class="cutom-parent">电视</a>  <span class="dcjq-icon"></span></li>
+				<li class=""><a href="category.html" class="cutom-parent">玩具 &amp; 电子设备</a><span class="dcjq-icon"></span></li>
+				<li class=""><a href="category.html" class="cutom-parent">珠宝与首饰</a>  <span class="dcjq-icon"></span></li>
+			</ul>
+		</div>
+		
+		
+	</div>
+</div>
+				<div class="module latest-product titleLine">
+   <h3 class="modtitle">最新产品</h3>
+   <div class="modcontent ">
+		<div class="product-latest-item">
+			<div class="media">
+			   <div class="media-left">
+				  <a href="#"><img src="image/demo/shop/product/m1.jpg" alt="Cisi Chicken" title="Cisi Chicken" class="img-responsive" style="width: 100px; height: 82px;"></a>
+			   </div>
+			   <div class="media-body">
+				  <div class="caption">
+					 <h4><a href="#">YSL</a></h4>
+					
+					 <div class="price">
+						<span class="price-new">¥210.00</span>
+					 </div>
+					 <div class="ratings">
+						<div class="rating-box">
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					 </div>
+				  </div>
+				  
+			   </div>
+			</div>
+		</div>
+		<div class="product-latest-item">
+			<div class="media">
+			   <div class="media-left">
+				  <a href="#"><img src="image/demo/shop/product/m2.jpg" alt="Cisi Chicken" title="Cisi Chicken" class="img-responsive" style="width: 100px; height: 82px;"></a>
+			   </div>
+			   <div class="media-body">
+				  <div class="caption">
+					 <h4><a href="#">香奈儿</a></h4>
+					
+					 <div class="price">
+						<span class="price-new">¥999.00</span>
+					 </div>
+					 <div class="ratings">
+						<div class="rating-box">
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					 </div>
+				  </div>
+				  
+			   </div>
+			</div>
+		</div>
+		<div class="product-latest-item">
+			<div class="media">
+			   <div class="media-left">
+				  <a href="#"><img src="image/demo/shop/product/18.jpg" alt="Cisi Chicken" title="Cisi Chicken" class="img-responsive" style="width: 100px; height: 82px;"></a>
+			   </div>
+			   <div class="media-body">
+				  <div class="caption">
+					 <h4><a href="#">Ipad</a></h4>
+					
+					 <div class="price">
+						<span class="price-new">¥3999.00</span>
+					 </div>
+					 <div class="ratings">
+						<div class="rating-box">
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					 </div>
+				  </div>
+				  
+			   </div>
+			</div>
+		</div>
+		<div class="product-latest-item transition">
+			<div class="media">
+			   <div class="media-left">
+				  <a href="#"><img src="image/demo/shop/product/9.jpg" alt="Cisi Chicken" title="Cisi Chicken" class="img-responsive" style="width: 100px; height:82px;"></a>
+			   </div>
+			   <div class="media-body">
+				  <div class="caption">
+					 <h4><a href="#">兰博</a></h4>
+					 <div class="price">
+						<span class="price-new">¥2455.00</span>
+					 </div>
+					 <div class="ratings">
+						<div class="rating-box">
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+						   <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					 </div>
+				  </div>
+				 
+			   </div>
+			</div>
+		 </div>
+		
+		
+   </div>
+   
+</div>
+				<div class="module">
+					<div class="modcontent clearfix">
+						<div class="banners">
+							<div>
+								<a href="#"><img src="image/demo/cms/dian1.jpg" alt="left-image"></a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</aside>
+			<!--Left Part End -->
+			
+			<!--Middle Part Start-->
+			<div id="content" class="col-md-9 col-sm-8">
+				<div class="products-category">
+					<div class="category-derc">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="banners">
+									<div>
+										<a  href="#"><img src="image/demo/shop/category/fang1.jpg" alt="Apple Cinema 30&quot;"><br></a>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+					<!-- Filters -->
+					
+					<!-- //end Filters -->
+					<!--changed listings-->
+					<div class="products-list row grid">
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/e11.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/e12.jpg" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				<!--Sale Label-->
+				<span class="label label-sale">促销</span>
+				<!--countdown box-->
+				<div class="countdown_box">
+	
+</div>
+				<!--end countdown box-->
+				
+				<!--full quick view block-->
+				<a class="quickview  visible-lg" data-fancybox-type="iframe"  href="./product.html">  看看</a>
+				<!--end full quick view block-->
+			</div>
+			
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">三星H500D</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥2700.00</span> 
+						<span class="price-old">¥3402.00</span>		 
+						<span class="label label-percent">-40%</span>    
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="加入愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+					
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	<div class="clearfix visible-xs-block"></div>
+	
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/11.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/10.jpg" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				
+				<!--full quick view block-->
+				<a class="quickview  visible-lg" data-fancybox-type="iframe"  href="./product.html">  看看</a>
+				<!--end full quick view block-->
+			</div>
+			
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">尼康EOS</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥2400.00</span> 
+						
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="假如我的愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+					
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	<div class="clearfix visible-sm-block"></div><div class="clearfix visible-xs-block"></div>	
+	
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/35.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/34.jpg" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				<!--Sale Label-->
+				<span class="label label-new">New</span>
+				<span class="label label-sale">促销</span>
+				<!--countdown box-->
+				<div class="countdown_box">
+	
+</div>
+				<!--end countdown box-->
+				
+				<!--full quick view block-->
+				<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+				<!--end full quick view block-->
+			</div>
+			
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">熨斗</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥580.00</span> 
+						<span class="price-old">¥1072.00</span>		 
+						<span class="label label-percent">-40%</span>    
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="假如我的愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	<div class="clearfix visible-xs-block"></div>	
+	
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/14.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/15.jpg" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				<!--Sale Label-->
+				<span class="label label-sale">促销</span>
+				<!--full quick view block-->
+				<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+				<!--end full quick view block-->
+			</div>
+			
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">安卓</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥1704.00</span> 
+						<span class="price-old">¥2230.00</span>		 
+						<span class="label label-percent">-40%</span>    
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="假如我的愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	<div class="clearfix visible-sm-block"></div><div class="clearfix visible-xs-block"></div>
+	
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/18.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/1.png" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				
+				<!--full quick view block-->
+				<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+				<!--end full quick view block-->
+			</div>
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">Ipad</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥2270.00</span> 
+						 
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="加入我的愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	<div class="clearfix visible-xs-block"></div>	
+	
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/141.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/11.jpg" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				
+				<!--full quick view block-->
+				<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+				<!--end full quick view block-->
+			</div>
+			
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">尼康 D300</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥89.00</span> 
+						<span class="price-old">¥122.00</span>		 
+						<span class="label label-percent">-40%</span>    
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+					 
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	<div class="clearfix visible-sm-block"></div><div class="clearfix visible-xs-block"></div>
+	
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/E3.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/E4.jpg" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				
+				<!--full quick view block-->
+				<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  Quickview</a>
+				<!--end full quick view block-->
+			</div>
+			
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">惠普</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥1200.00</span> 
+						
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="加入愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+					 
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	<div class="clearfix visible-xs-block"></div>
+	
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/E1.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/E2.jpg" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				<!--Sale Label-->
+				<span class="label label-sale">促销</span>
+				<!--full quick view block-->
+				<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+				<!--end full quick view block-->
+			</div>
+			
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">三星 10.1</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥2665.00</span> 
+						<span class="price-old">¥3145.00</span>		 
+						<span class="label label-percent">-20%</span>    
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="加入愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+					 
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	<div class="clearfix visible-sm-block"></div><div class="clearfix visible-xs-block"></div>
+	
+	<div class="product-layout col-md-4 col-sm-6 col-xs-12 ">
+		<div class="product-item-container">
+			<div class="left-block">
+				<div class="product-image-container lazy second_img ">
+					<img data-src="image/demo/shop/product/19.jpg" src=""  alt="Apple Cinema 30&quot;" class="img-responsive" />
+					<img data-src="image/demo/shop/product/15.jpg" src=""  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+				</div>
+				
+				<!--full quick view block-->
+				<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+				<!--end full quick view block-->
+			</div>
+			
+			
+			<div class="right-block">
+				<div class="caption">
+					<h4><a href="product.html">华为</a></h4>		
+					<div class="ratings">
+						<div class="rating-box">
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+							<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+						</div>
+					</div>
+										
+					<div class="price">
+						<span class="price-new">¥997.00</span> 
+						<span class="price-old">¥1222.00</span>		 
+						<span class="label label-percent">-40%</span>    
+					</div>
+					<div class="description item-desc hidden">
+						<p>很好 </p>
+					</div>
+				</div>
+				
+				  <div class="button-group">
+					<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+					<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+					 
+				  </div>
+			</div><!-- right block -->
+
+		</div>
+	</div>
+	
+</div>					<!--// End Changed listings-->
+					<!-- Filters -->
+					<div class="product-filter product-filter-bottom filters-panel" >
+						<div class="row">
+							<div class="col-md-2 hidden-sm hidden-xs">
+							</div>
+						   <div class="short-by-show text-center col-md-7 col-sm-8 col-xs-12">
+								<div class="form-group" style="margin: 7px 10px">共 10  (2 页)</di页v>
+							</div>
+							<div class="box-pagination col-md-13 col-sm-13 text-center"><ul class="pagination"><li class="active"><span>1</span></li><li><a href="#">2</a></li><li><a href="#">&gt;</a></li><li><a href="#">&gt;|</a></li></ul></div>
+									
+						 </div>
+					</div>
+					<!-- //end Filters -->
+					
+				</div>
+				
+			</div>
+			
+			
+		</div>
+		<!--Middle Part End-->
+	</div>
+	<!-- //Main Container -->
+	
+
+	<!-- Footer Container -->
+	<footer class="footer-container">
+		<!-- Footer Top Container -->
+		<section class="footer-top">
+			<div class="container content">
+				<div class="row">
+					<div class="col-sm-6 col-md-3 box-information">
+						<div class="module clearfix">
+							<h3 class="modtitle">信息</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">关于我们</a></li>
+									<li><a href="#">常见问题</a></li>
+									<li><a href="#">历史订单</a></li>
+									<li><a href="#">订单信息</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 box-service">
+						<div class="module clearfix">
+							<h3 class="modtitle">支付方式</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">货到付款</a></li>
+									<li><a href="#">在线支付</a></li>
+									<li><a href="#">分期付款</a></li>
+									<li><a href="#">公司转账</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 box-account">
+						<div class="module clearfix">
+							<h3 class="modtitle">售后服务</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">售后政策</a></li>
+									<li><a href="#">退款说明</a></li>
+									<li><a href="#">返修/退换货</a></li>
+									<li><a href="#">取消订单</a></li>
+									<li><a href="#" target="_blank">价格保护</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 collapsed-block ">
+						<div class="module clearfix">
+							<h3 class="modtitle">联系我们	</h3>
+							<div class="modcontent">
+								<ul class="contact-address">
+									<li><span class="fa fa-map-marker"></span>公司地址:厦门市XXXXXXXXX</li>
+									<li><span class="fa fa-envelope-o"></span> Email: <a href="#"> 59332868@qq.com</a></li>
+									<li><span class="fa fa-phone">&nbsp;</span> 电话 1:XXXX <br>电话 2: XXXX</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+		</section>
+	
+					<!--Back To Top-->
+		<div class="back-to-top"><i class="fa fa-angle-up"></i><span> Top </span></div>
+		
+			
+		<!-- /Footer Bottom Container -->
+		
+		
+	</footer>
+	<!-- //end Footer Container -->
+
+    </div>
+	
+	
+	<!-- Cpanel Block -->
+	
+
+
+
+
+
+<link rel='stylesheet' property='stylesheet'  href='css/themecss/cpanel.css' type='text/css' media='all' />
+	
+	
+	<!-- Preloading Screen -->
+	
+	<!-- End Preloading Screen -->
+	
+<!-- Include Libs & Plugins
+	============================================ -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/themejs/libs.js"></script>
+	<script type="text/javascript" src="js/unveil/jquery.unveil.js"></script>
+	<script type="text/javascript" src="js/countdown/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js"></script>
+	<script type="text/javascript" src="js/datetimepicker/moment.js"></script>
+	<script type="text/javascript" src="js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+	
+	
+	<!-- Theme files
+	============================================ -->
+	
+	
+	<script type="text/javascript" src="js/themejs/so_megamenu.js"></script>
+	<script type="text/javascript" src="js/themejs/addtocart.js"></script>
+	<script type="text/javascript" src="js/themejs/application.js"></script>
+	<script type="text/javascript" src="js/themejs/cpanel.js"></script>
+	
+</body>
+</html>
+

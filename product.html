@@ -1,0 +1,1380 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Basic page needs
+	============================================ -->
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <meta name="author" content="Magentech">
+    <meta name="robots" content="index, follow" />
+   
+	<!-- Mobile specific metas
+	============================================ -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<!-- Favicon
+	============================================ -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+	
+	<!-- Google web fonts
+	============================================ -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	
+    <!-- Libs CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="css/themecss/lib.css" rel="stylesheet">
+	<link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+	
+	<!-- Theme CSS
+	============================================ -->
+   	<link href="css/themecss/so_megamenu.css" rel="stylesheet">
+    <link href="css/themecss/so-categories.css" rel="stylesheet">
+	<link href="css/themecss/so-listing-tabs.css" rel="stylesheet">
+	
+		<link id="color_scheme" href="css/theme.css" rel="stylesheet">
+		
+	<link href="css/responsive.css" rel="stylesheet">
+	
+   
+	
+</head>
+
+<body class="res layout-subpage">
+	<div id="wrapper" class="wrapper-full banners-effect-7">
+	<!-- Header Container  -->
+<header id="header" class=" variantleft type_1">
+
+
+<!-- Header center -->
+	<div class="header-center left">
+	<div class="container">
+		<div class="row">
+			<!-- Logo -->
+			<div class="navbar-logo col-md-3 col-sm-12 col-xs-12">
+				<a href="index.html"><img src="image/demo/logos/theme_logo.png" title="Your Store" alt="Your Store" /></a>
+			</div>
+			<!-- //end Logo -->
+
+			<!-- Search -->
+			<div id="sosearchpro" class="col-sm-9  col-md-6 search-pro">
+				<form method="GET" action="index.html">
+					<div id="search0" class="search input-group">
+						<div class="select_category filter_type icon-select">
+							<select class="no-border" name="category_id">
+								<option value="0">所有类别</option>
+								<option value="78">衣服</option>
+								<option value="77">裤子</option>
+								<option value="82">鞋子</option>
+								<option value="80">智能手机与电脑</option>
+								<option value="81">户外运动</option>
+								<option value="79">电子产品</option>
+								<option value="20">汽车</option>
+								<option value="76">家居</option>
+								<option value="26">首饰</option>
+								<option value="27">结婚戒指</option>
+							</select>
+						</div>
+
+						<input class="autosearch-input form-control" type="text" value="" size="50" autocomplete="off" placeholder="瞎买一下" name="search">
+						<span class="input-group-btn">
+						<button type="submit" class="button-search btn btn-primary" name="submit_search"><i class="fa fa-search"></i></button>
+						</span>
+					</div>
+					<input type="hidden" name="route" value="product/search" />
+				</form>
+			</div>
+			<!-- //end Search -->
+
+			<!-- Secondary menu -->
+			<div class="col-md-3 col-sm-3 col-xs-12 shopping_cart pull-right">
+				<!--cart-->
+					<div class="header-top-right collapsed-block text-right  col-sm-11 col-xs-12 compact-hidden">
+				<h5 class="tabBlockTitle visible-xs">更多<a class="expander " href="#TabBlock-1"><i class="fa fa-angle-down"></i></a></h5>
+				<div class="tabBlock" id="TabBlock-1">
+					<ul class="top-link list-inline">
+						<li class="account" id="my_account">
+							<a href="#" title="我的账号" class="btn btn-xs dropdown-toggle" data-toggle="dropdown"> <span >我的账号</span> <span class="fa fa-angle-down"></span></a>
+							<ul class="dropdown-menu ">
+								<li><a href="login.html"><i class="fa fa-user"></i> 登陆</a></li>
+								<li><a href="register.html"><i class="fa fa-pencil-square-o"></i> 编辑</a></li>
+							</ul>
+						</li>
+						<li class="wishlist"><a href="#" id="wishlist-total" class="top-link-wishlist" title="我的愿望清单(2)"><span>愿望清单 (2)</span></a></li>
+						<li class="checkout"><a href="#" class="top-link-checkout" title="查看"><span >查看</span></a></li>
+						<li class="login"><a href="#" title="购物车"><span >购物车</span></a></li>
+					</ul>
+				</div>
+ </div>
+				<!--//cart-->
+			</div>
+		</div>
+
+	</div>
+	</div>
+<!-- //Header center -->
+
+<!-- Header Bottom -->
+<div class="header-bottom">
+	<div class="container">
+		<div class="row">
+			
+			<div class="sidebar-menu col-md-3 col-sm-6 col-xs-12 ">
+				<div class="responsive so-megamenu ">
+					<div class="so-vertical-menu no-gutter compact-hidden">
+						<nav class="navbar-default">	
+							
+							<div class="container-megamenu vertical open">
+								<div id="menuHeading">
+									<div class="megamenuToogle-wrapper">
+										<div class="megamenuToogle-pattern">
+											<div class="container">
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+												所有类别
+												<i class="fa pull-right arrow-circle fa-chevron-circle-up"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="navbar-header">
+									<button type="button" id="show-verticalmenu" data-toggle="collapse" class="navbar-toggle fa fa-list-alt">
+										
+									</button>
+									所有类别	
+								</div>
+								<div class="vertical-wrapper" >
+									<span id="remove-verticalmenu" class="fa fa-times"></span>
+									<div class="megamenu-pattern">
+										<div class="container">
+											<ul class="megamenu">
+												<li class="item-vertical style1 with-sub-menu hover">
+													<p class="close-menu"></p>
+													<a href="#" class="clearfix">
+														<img src="image/theme/icons/9.png" alt="icon">
+														<span>汽车配件</span>
+														<b class="caret"></b>
+													</a>
+													<div class="sub-menu" data-subwidth="100" >
+														<div class="content" >
+															<div class="row">
+																<div class="col-sm-12">
+																	<div class="row">
+																		<div class="col-md-4 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+										
+
+										
+
+		<a href="./category.html"  class="main-menu">汽车轮胎</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" >倍耐力</a></li>
+										
+
+										
+
+			<li><a href="#" >马牌</a></li>
+										
+
+										
+
+			<li><a  href="#" >米麒麟</a></li>
+										
+
+										
+
+			<li><a href="#" >固特异</a></li>
+										
+
+										
+
+			<li><a href="#" >万力</a></li>
+										
+
+										
+
+			<li><a href="#" >邓普</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>
+																					<li>
+										
+
+										
+
+		<a href="./category.html"  class="main-menu">机油</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" >德国福斯</a></li>
+										
+
+										
+
+			<li><a href="#" >埃克森美孚</a></li>
+										
+
+										
+
+			<li><a href="#" >壳牌</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>
+																				</ul>
+																			</div>
+																		</div>
+																		<div class="col-md-4 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+										
+
+										
+
+		<a href="./category.html"  class="main-menu">皮座</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" >吉利新</a></li>
+										
+
+										
+
+			<li><a href="#" >若利亚</a></li>
+										
+
+										
+
+			<li><a href="#" >奥迪专用</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>
+																					<li>
+										
+
+										
+
+		<a href="#" class="main-menu">其他</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" >遮阳步</a></li>
+										
+
+										
+
+			<li><a href="#" >汽车香水</a></li>
+										
+
+										
+
+			<li><a href="#" >保险盒</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>																			
+																				</ul>
+																			</div>
+																		</div>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="item-vertical">
+													<p class="close-menu"></p>
+													<a href="#" class="clearfix">
+														<img src="image/theme/icons/10.png" alt="icon">
+														<span>运动户外</span>
+														
+													</a>
+												</li>
+												<li class="item-vertical with-sub-menu hover">
+													<p class="close-menu"></p>
+													<a href="#" class="clearfix">
+														<span class="label"></span>
+														<img src="image/theme/icons/3.png" alt="icon">
+														<span>健康美容</span>
+														<b class="caret"></b>
+													</a>
+													<div class="sub-menu" data-subwidth="60" >
+														<div class="content">
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="row">
+																		<div class="col-md-12 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+										
+
+										
+
+		<a href="#" onclick="window.location = '81';" class="main-
+menu">书籍</a>
+										
+
+										
+
+		<ul>
+					
+			<li><a href="#" onclick="window.location = 
+
+'33_63';">养生书籍</a></li>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = 
+
+'24_64';">瑜伽书籍</a></li>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = '17';">
+
+烹饪书籍</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>	
+																				<li>
+										
+
+										
+
+		<a href="#" onclick="window.location = '18_46';" 
+
+class="main-menu">保健品</a>
+										
+
+										
+
+		<ul>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = 
+
+'25_28';">补血</a></li>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = '80';">
+
+补钙</a></li>
+										
+
+										
+
+			<li><a href="#" onclick="window.location = 
+
+'24_66';">维生素</a></li>
+										
+
+										
+
+		</ul>
+										
+
+										
+
+	</li>
+																					
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																
+																</div>
+															</div>
+														</div>
+													</li>
+													
+													<li class="item-vertical css-menu with-sub-menu hover">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															
+															<img src="image/theme/icons/2.png" alt="icon">
+															<span>智能手机和平板电脑</span>
+															<b class="caret"></b>
+														</a>
+														<div class="sub-menu" data-subwidth="30" style="width: 270px; display: none; right: 0px;">
+															<div class="content" style="display: none;">
+																<div class="row">
+																	<div class="col-sm-12">
+																		<div class="row">
+																			<div class="col-sm-12 hover-menu">
+																				<div class="menu">
+																					<ul>
+																						<li>
+																							<a href="#" class="main-menu">宏碁</a>
+																						</li>
+																						<li>
+																							<a href="#" class="main-menu">三星</a>
+																						</li>
+																						<li>
+																							<a href="#" class="main-menu">苹果</a>
+																						</li>
+																						<li>
+																							<a href="#" class="main-menu">小米</a>
+																						</li>
+																						<li>
+																							<a href="#" class="main-menu">惠普</a>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</li>
+													<li class="item-vertical">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/11.png" alt="icon">
+															<span>包</span>
+															
+														</a>
+													</li>
+													<li class="item-vertical">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/4.png" alt="icon">
+															<span>户外旅行设备</span>
+														</a>
+													</li>
+													<li class="item-vertical">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/5.png" alt="icon">
+															<span>电视</span>
+														</a>
+													</li>
+													<li class="item-vertical" >
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/7.png" alt="icon">
+															<span>玩具</span>
+														</a>
+													</li>
+													<li class="item-vertical" style="display: none;">
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/6.png" alt="icon">
+															<span>电子设备</span>
+														</a>
+													</li>
+													<li class="item-vertical" >
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/8.png" alt="icon">
+															<span>电子设备 </span>
+														</a>
+													</li>
+													<li class="item-vertical" >
+														<p class="close-menu"></p>
+														<a href="#" class="clearfix">
+															<img src="image/theme/icons/12.png" alt="icon">
+															<span>珠宝与首饰</span>
+														</a>
+													</li>
+												
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</nav>
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- Main menu -->
+			<div class="megamenu-hori header-bottom-right  col-md-9 col-sm-6 col-xs-12 ">
+				<div class="responsive so-megamenu ">
+	<nav class="navbar-default">
+		<div class=" container-megamenu  horizontal">
+			<div class="navbar-header">
+				<button type="button" id="show-megamenu" data-toggle="collapse" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				Navigation		
+			</div>
+			
+			<div class="megamenu-wrapper">
+				<span id="remove-megamenu" class="fa fa-times"></span>
+				<div class="megamenu-pattern">
+					<div class="container">
+						<ul class="megamenu " data-transition="slide" data-animationtime="250">
+							
+						
+							<li class="with-sub-menu hover">
+								<p class="close-menu"></p>
+								<a href="#" class="clearfix">
+									<strong>我的瞎买	</strong>
+									
+									<b class="caret"></b>
+								</a>
+								<div class="sub-menu" style="width: 40%; ">
+									<div class="content" >
+										<div class="row">
+											<div class="col-md-6">
+												<ul class="row-list">
+													<li><a class="subcategory_item" href="#">待返修订单</a></li>
+													<li><a class="subcategory_item" href="#">返修退换货</a></li>
+													<li><a class="subcategory_item" href="#">降价商品</a></li>
+													
+												</ul>
+											</div>
+											<div class="col-md-6">
+												<ul class="row-list">
+													<li><a class="subcategory_item" href="#">我的售后</a></li>
+													<li><a class="subcategory_item" href="#">在线客服</a></li>
+													<li><a class="subcategory_item" href="#">意见建议</a></li>
+													
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							
+							
+							<li class="with-sub-menu hover">
+								<p class="close-menu"></p>
+								<a href="#" class="clearfix">
+									<strong>超划算</strong>
+									<span class="label"> Hot</span>
+									<b class="caret"></b>
+								</a>
+								<div class="sub-menu" style="width: 100%; display: none;">
+									<div class="content" style="display: none;">
+										<div class="row">
+											<div class="col-md-8">
+												<div class="row">
+													<div class="col-md-6 static-menu">
+														<div class="menu">
+															<ul>
+																<li>
+																	<a href="./category.html"  class="main-menu">智能手机</a>
+																	<ul>
+																		<li><a href="#">苹果</a></li>
+																		<li><a href="#" >三星</a></li>
+																		<li><a href="#" >小米</a></li>
+																	</ul>
+																</li>
+																<li>
+																	<a href="./category.html"  class="main-menu">运动品牌</a>
+																	<ul>
+																		<li><a href="#" >爱迪达斯</a></li>
+																		<li><a href="#" >耐克</a></li>
+																		<li><a href="#" >361度</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-6 static-menu">
+														<div class="menu">
+															<ul>
+																<li>
+																	<a href="#" class="main-menu">电子产品</a>
+																	<ul>
+																		<li><a href="#" >单反</a></li>
+																		<li><a href="#" >手机充电器</a></li>
+																		<li><a href="#" >蓝牙耳机</a></li>
+																	</ul>
+																</li>
+																<li>
+																	<a href="./category.html"  class="main-menu">家居</a>
+																	<ul>
+																		<li><a href="#" >沙发</a></li>
+																		<li><a href="#" >厨具</a></li>
+																		<li><a href="#" >电视</a></li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<span class="title-submenu">畅销商品</span>
+												<div class="col-sm-12 list-product">
+													<div class="product-thumb">
+														<div class="image pull-left">
+															<a href="#"><img src="image/demo/shop/product/35.jpg" width="80" alt="Filet Mign" title="Filet Mign" class="img-responsive"></a>
+														</div>
+														<div class="caption">
+															<h4><a href="#">Filet Mign</a></h4>
+															<div class="rating-box">
+																<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															</div>
+															<p class="price">¥1,202.00</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 list-product">
+													<div class="product-thumb">
+														<div class="image pull-left">
+															<a href="#"><img src="image/demo/shop/product/W1.jpg" width="80" alt="Dail Lulpa" title="Dail Lulpa" class="img-responsive"></a>
+														</div>
+														<div class="caption">
+															<h4><a href="#">Dail Lulpa</a></h4>
+															<div class="rating-box">
+																<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+															   <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+															</div>
+															<p class="price">¥7800.00</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 list-product">
+													<div class="product-thumb">
+														<div class="image pull-left">
+															<a href="#"><img src="image/demo/shop/product/141.jpg" width="80" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive"></a>
+														</div>
+														<div class="caption">
+															<h4><a href="#">佳能 EOS 5D</a></h4>
+															
+															<div class="rating-box">
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+																<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+															</div>
+															<p class="price">
+																<span class="price-new">¥600.00</span>
+																<span class="price-old">¥800.00</span>
+																
+															</p>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="">
+								<p class="close-menu"></p>
+								<a href="#" class="clearfix">
+									<strong>达人推荐</strong>
+									<span class="label"></span>
+								</a>
+							</li>
+							
+							<li class="hidden-md">
+								<p class="close-menu"></p>
+								<a href="#" class="clearfix">
+									<strong>购买主题</strong>
+									
+								</a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>
+									</div>
+			<!-- //end Main menu -->
+			
+		</div>
+	</div>
+
+</div>
+
+<!-- Navbar switcher -->
+<!-- //end Navbar switcher -->
+	</header>
+     
+
+	<!-- //Header Container  -->
+	<!-- Main Container  -->
+	<div class="main-container container">
+		<ul class="breadcrumb">
+			<li><a href="#"><i class="fa fa-home"></i></a></li>
+			<li><a href="#">智能手机和平板电脑</a></li>
+			<li><a href="#">粉红之心</a></li>
+			
+		</ul>
+		
+		<div class="row">
+			<!--Middle Part Start-->
+			<div id="content" class="col-md-12 col-sm-12">
+				
+				<div class="product-view row">
+					<div class="left-content-product col-lg-10 col-xs-12">
+						<div class="row">
+							<div class="content-product-left class-honizol col-sm-6 col-xs-12 ">
+								<div class="large-image  ">
+									<img itemprop="image" class="product-image-zoom" src="image/demo/shop/product/J9.jpg" data-zoom-image="image/demo/shop/product/J9.jpg" title="Bint Beef" alt="Bint Beef">
+								</div>
+								
+								<div id="thumb-slider" class="owl-theme owl-loaded owl-drag full_slider">
+									<a data-index="0" class="img thumbnail " data-image="image/demo/shop/product/J9.jpg" title="Bint Beef">
+										<img src="image/demo/shop/product/J9.jpg" title="Bint Beef" alt="Bint Beef">
+									</a>
+									<a data-index="1" class="img thumbnail " data-image="image/demo/shop/product/J6.jpg" title="Bint Beef">
+										<img src="image/demo/shop/product/J6.jpg" title="Bint Beef" alt="Bint Beef">
+									</a>
+									<a data-index="2" class="img thumbnail " data-image="image/demo/shop/product/J5.jpg" title="Bint Beef">
+										<img src="image/demo/shop/product/J5.jpg" title="Bint Beef" alt="Bint Beef">
+									</a>
+									<a data-index="3" class="img thumbnail " data-image="image/demo/shop/product/J4.jpg" title="Bint Beef">
+										<img src="image/demo/shop/product/J4.jpg" title="Bint Beef" alt="Bint Beef">
+									</a>
+								</div>
+								
+							</div>
+
+							<div class="content-product-right col-sm-6 col-xs-12">
+								<div class="title-product">
+									<h1>粉红之心</h1>
+								</div>
+								<!-- Review ---->
+								<div class="box-review form-group">
+									<div class="ratings">
+										<div class="rating-box">
+										<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+												<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+												<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+												<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+												<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+										</div>
+									</div>
+
+									<a class="reviews_button" href="" onclick="¥('a[href=\'#tab-review\']').trigger('click'); return false;">0 评论</a>	| 
+									<a class="write_review_button" href="" onclick="¥('a[href=\'#tab-review\']').trigger('click'); return false;">写评论</a>
+								</div>
+
+								<div class="product-label form-group">
+									<div class="product_page_price price" itemprop="offerDetails" itemscope="" itemtype="http://data-vocabulary.org/Offer">
+										<span class="price-new" itemprop="price">¥1140.00</span>
+										<span class="price-old">¥1888.00</span>
+									</div>
+									<div class="stock"><span>库存:</span> <span class="status-stock">有货</span></div>
+								</div>
+
+								<div class="product-box-desc">
+									<div class="inner-box-desc">
+										<div class="price-tax"><span>类型 :</span> 项链</div>
+										<div class="reward"><span>奖励积分 :</span> 400</div>
+										<div class="brand"><span>品牌:</span><a href="#">蒂芙尼</a>		</div>
+										<div class="model"><span>出产地:</span> 中国</div>
+										<div class="reward"><span>证书:</span> 有</div>
+									</div>
+								</div>
+
+
+								<div id="product">
+									<h4>选项</h4>
+									<div class="image_option_type form-group required">
+										<label class="control-label">颜色</label>
+										<ul class="product-options clearfix"id="input-option231">
+											<li class="radio">
+												<label>
+													<input class="image_radio" type="radio" name="option[231]" value="33"> 
+													<img src="image/demo/colors/blue.jpg"  class="img-thumbnail icon icon-color">				<i class="fa fa-check"></i>
+													<label> </label>
+												</label>
+											</li>
+											<li class="radio">
+												<label>
+													<input class="image_radio" type="radio" name="option[231]" value="34"> 
+													<img src="image/demo/colors/brown.jpg"  class="img-thumbnail icon icon-color">				<i class="fa fa-check"></i>
+													<label> </label>
+												</label>
+											</li>
+											<li class="radio">
+												<label>
+													<input class="image_radio" type="radio" name="option[231]" value="35"> <img src="image/demo/colors/green.jpg"
+													 class="img-thumbnail icon icon-color">				<i class="fa fa-check"></i>
+													<label> </label>
+												</label>
+											</li>
+											
+										</ul>
+									</div>
+									
+									<div class="box-checkbox form-group required">
+										<label class="control-label">尺寸选择</label>
+										<div id="input-option232">
+											<div class="checkbox">
+												<label for="checkbox_1"><input type="checkbox" name="option[232][]" value="36" id="checkbox_1">  1 (+¥12.00)</label>
+											</div>
+											<div class="checkbox">
+												<label for="checkbox_2"><input type="checkbox" name="option[232][]" value="36" id="checkbox_2">  2 (+¥36.00)</label>
+											</div>
+											<div class="checkbox">
+												<label for="checkbox_3"><input type="checkbox" name="option[232][]" value="36" id="checkbox_3">  3 (+¥24.00)</label>
+											</div>
+											<div class="checkbox">
+												<label for="checkbox_4"><input type="checkbox" name="option[232][]" value="36" id="checkbox_4">  4 (+¥48.00)</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group box-info-product">
+										<div class="option quantity">
+											<div class="input-group quantity-control" unselectable="on" style="-webkit-user-select: none;">
+												<label>数量</label>
+												<input class="form-control" type="text" name="quantity"
+												value="1">
+												<input type="hidden" name="product_id" value="50">
+												<span class="input-group-addon product_quantity_down">−</span>
+												<span class="input-group-addon product_quantity_up">+</span>
+											</div>
+										</div>
+										<div class="cart">
+											<input type="button" data-toggle="tooltip" title="" value="加入购物车" data-loading-text="Loading..." id="button-cart" class="btn btn-mega btn-lg" onclick="cart.add('42', '1');" data-original-title="加入购物车">
+										</div>
+										<div class="add-to-links wish_comp">
+											<ul class="blank list-inline">
+												<li class="wishlist">
+													<a class="icon" data-toggle="tooltip" title=""
+													onclick="wishlist.add('50');" data-original-title="加入愿望清单"><i class="fa fa-heart"></i>
+													</a>
+												</li>
+												
+											</ul>
+										</div>
+
+									</div>
+
+								</div>
+								<!-- end box info product -->
+
+							</div>
+						</div>
+					</div>
+					
+					<section class="col-lg-2 hidden-sm hidden-md hidden-xs slider-products">
+						<div class="module col-sm-12 four-block">
+							<div class="modcontent clearfix">
+								<div class="policy-detail">
+									<div class="banner-policy">
+										<div class="policy policy1">
+											<a href="#"> <span class="ico-policy">&nbsp;</span>	15 天
+											<br> 包 退 </a>
+										</div>
+										<div class="policy policy2">
+											<a href="#"> <span class="ico-policy">&nbsp;</span>	急速物流 </a>
+										</div>
+										<div class="policy policy3">
+											<a href="#"> <span class="ico-policy">&nbsp;</span>	最低价格 </a>
+										</div>
+										<div class="policy policy4">
+											<a href="#"> <span class="ico-policy">&nbsp;</span>	购物保证 </a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				
+				<!-- Product Tabs -->
+				<div class="producttab ">
+	<div class="tabsslider  vertical-tabs col-xs-12">
+		<ul class="nav nav-tabs col-lg-2 col-sm-3">
+			<li class="active"><a data-toggle="tab" href="#tab-1">产品描述</a></li>
+			<li class="item_nonactive"><a data-toggle="tab" href="#tab-review">评论 (1)</a></li>
+			<li class="item_nonactive"><a data-toggle="tab" href="#tab-4">售后保障</a></li>
+			<li class="item_nonactive"><a data-toggle="tab" href="#tab-5">店长推荐</a></li>
+		</ul>
+		<div class="tab-content col-lg-10 col-sm-9 col-xs-12">
+			<div id="tab-1" class="tab-pane fade active in">
+				<p>钻石切工是钻石4C中唯一可以由人工掌控的因素。切工分为切割比例、抛光、修饰度三项。
+级别由高到低依次是Excellent（EX），Very Good（VG），Good，Fair，Poor。
+DR无Good，Fair，Poor切工的钻石。
+				</p>
+				
+			</div>
+			<div id="tab-review" class="tab-pane fade">
+				<form>
+					<div id="review">
+						<table class="table table-striped table-bordered">
+							<tbody>
+								<tr>
+									<td style="width: 50%;"><strong>XX买家</strong></td>
+									<td class="text-right">29/04/2017</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<p>很好看</p>
+										<div class="ratings">
+											<div class="rating-box">
+												<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+												<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+												<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+												<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+												<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="text-right"></div>
+					</div>
+					<h2 id="review-title">你的评论</h2>
+					<div class="contacts-form">
+						
+						<div class="form-group"> <span class="icon icon-bubbles-2"></span>
+							<textarea class="form-control" name="text" onblur="if (this.value == '') {this.value = '你的评论 ';}" onfocus="if(this.value == '你的评论') {this.value = '';}">你的评论</textarea>
+						</div> 
+						
+						
+						<div class="form-group">
+						 <b>打星</b> <span>坏</span>&nbsp;
+						<input type="radio" name="rating" value="1"> &nbsp;
+						<input type="radio" name="rating"
+						value="2"> &nbsp;
+						<input type="radio" name="rating"
+						value="3"> &nbsp;
+						<input type="radio" name="rating"
+						value="4"> &nbsp;
+						<input type="radio" name="rating"
+						value="5"> &nbsp;<span>好</span>
+						
+						</div>
+						<div class="buttons clearfix"><a id="button-review" class="btn buttonGray">提交</a></div>
+					</div>
+				</form>
+			</div>
+			<div id="tab-4" class="tab-pane fade">
+				<p>15天包退</p>				
+			</div>
+			<div id="tab-5" class="tab-pane fade">
+				<p>浪漫的“心” 六爪镶嵌的钻戒是浪漫爱情的象征，
+受到情侣的青睐和大众的追捧。 
+设计师用钻石打造甜蜜的爱， 
+守护爱情，为爱加分。 设计灵感 它是结婚常用款，兼顾时尚与 
+浪漫，是情侣间甜蜜的告白。 它就是六爪钻戒 
+时尚珠宝圈中的爱情守护者。</p>
+			</div>
+		</div>
+	</div>
+</div>
+				<!-- //Product Tabs -->
+				
+				<!-- Related Products -->
+				<div class="related titleLine products-list grid module ">
+	<h3 class="modtitle">找相似  </h3>
+	<div class="releate-products ">
+		<div class="product-layout">
+			<div class="product-item-container">
+				<div class="left-block">
+					<div class="product-image-container second_img ">
+						<img  src="image/demo/shop/product/e11.jpg"  title="Apple Cinema 30&quot;" class="img-responsive" />
+						<img  src="image/demo/shop/product/e12.jpg"  title="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+					</div>
+					<!--Sale Label-->
+					<span class="label label-sale">促销</span>
+					<!--full quick view block-->
+					<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+					<!--end full quick view block-->
+				</div>
+				
+				
+				<div class="right-block">
+					<div class="caption">
+						<h4><a href="product.html">三星H500D</a></h4>		
+						<div class="ratings">
+							<div class="rating-box">
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+							</div>
+						</div>
+											
+						<div class="price">
+							<span class="price-new">¥2774.00</span> 
+							<span class="price-old">¥3122.00</span>		 
+							<span class="label label-percent">-40%</span>    
+						</div>
+						<div class="description item-desc hidden">
+							<p>很好</p>
+						</div>
+					</div>
+					
+					  <div class="button-group">
+						<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+						<button class="wishlist" type="button" data-toggle="tooltip" title="加入愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+						 
+					  </div>
+				</div><!-- right block -->
+
+			</div>
+		</div>
+		<div class="product-layout ">
+			<div class="product-item-container">
+				<div class="left-block">
+					<div class="product-image-container second_img ">
+						<img  src="image/demo/shop/product/11.jpg"  title="Apple Cinema 30&quot;" class="img-responsive" />
+						<img  src="image/demo/shop/product/10.jpg"  title="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+						
+					</div>
+					<!--Sale Label-->
+					<span class="label label-sale">促销</span>
+					<!--full quick view block-->
+					<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+					<!--end full quick view block-->
+				</div>
+				
+				
+				<div class="right-block">
+					<div class="caption">
+						<h4><a href="product.html">佳能30</a></h4>		
+						<div class="ratings">
+							<div class="rating-box">
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+							</div>
+						</div>
+											
+						<div class="price">
+							<span class="price-new">¥1774.00</span> 
+							<span class="price-old">¥2122.00</span>		 
+							<span class="label label-percent">-40%</span>    
+						</div>
+						<div class="description item-desc hidden">
+							<p>很好</p>
+						</div>
+					</div>
+					
+					  <div class="button-group">
+						<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+						<button class="wishlist" type="button" data-toggle="tooltip" title="加入愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+						 
+					  </div>
+				</div><!-- right block -->
+
+			</div>
+		</div>
+		<div class="product-layout ">
+			<div class="product-item-container">
+				<div class="left-block">
+					<div class="product-image-container second_img ">
+						<img  src="image/demo/shop/product/35.jpg"  title="Apple Cinema 30&quot;" class="img-responsive" />
+						<img  src="image/demo/shop/product/34.jpg"  title="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+					</div>
+					<!--Sale Label-->
+					<span class="label label-sale">促销</span>
+					<!--full quick view block-->
+					<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+					<!--end full quick view block-->
+				</div>
+				
+				
+				<div class="right-block">
+					<div class="caption">
+						<h4><a href="product.html">Apple Cinema 30&quot;</a></h4>		
+						<div class="ratings">
+							<div class="rating-box">
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+							</div>
+						</div>
+											
+						<div class="price">
+							<span class="price-new">¥3174.00</span> 
+							<span class="price-old">¥4122.00</span>		 
+							<span class="label label-percent">-40%</span>    
+						</div>
+						<div class="description item-desc hidden">
+							<p>很好</p>
+						</div>
+					</div>
+					
+					  <div class="button-group">
+						<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+						<button class="wishlist" type="button" data-toggle="tooltip" title="加入愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+						 
+					  </div>
+				</div><!-- right block -->
+
+			</div>
+		</div>
+		<div class="product-layout ">
+			<div class="product-item-container">
+				<div class="left-block">
+					<div class="product-image-container second_img ">
+						<img  src="image/demo/shop/product/14.jpg"  title="Apple Cinema 30&quot;" class="img-responsive" />
+						<img  src="image/demo/shop/product/15.jpg"  title="Apple Cinema 30&quot;" class="img_0 img-responsive" />
+					</div>
+					<!--Sale Label-->
+					<span class="label label-sale">促销</span>
+					<!--full quick view block-->
+					<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  看看</a>
+					<!--end full quick view block-->
+				</div>
+				
+				
+				<div class="right-block">
+					<div class="caption">
+						<h4><a href="product.html">华为</a></h4>		
+						<div class="ratings">
+							<div class="rating-box">
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+								<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+							</div>
+						</div>
+											
+						<div class="price">
+							<span class="price-new">¥2174.00</span> 
+							<span class="price-old">¥3122.00</span>		 
+							<span class="label label-percent">-40%</span>    
+						</div>
+					 
+					</div>
+					
+					  <div class="button-group">
+						<button class="addToCart" type="button" data-toggle="tooltip" title="加入购物车" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入购物车</span></button>
+						<button class="wishlist" type="button" data-toggle="tooltip" title="加入愿望清单" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+						 
+					  </div>
+				</div><!-- right block -->
+
+			</div>
+		</div>
+	</div>
+</div>
+
+			<!-- end Related  Products-->
+			
+				
+			</div>
+			
+			
+		</div>
+		<!--Middle Part End-->
+	</div>
+	<!-- //Main Container -->
+	
+
+	<!-- Footer Container -->
+			<footer class="footer-container">
+		<!-- Footer Top Container -->
+		<section class="footer-top">
+			<div class="container content">
+				<div class="row">
+					<div class="col-sm-6 col-md-3 box-information">
+						<div class="module clearfix">
+							<h3 class="modtitle">信息</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">关于我们</a></li>
+									<li><a href="#">常见问题</a></li>
+									<li><a href="#">历史订单</a></li>
+									<li><a href="#">订单信息</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 box-service">
+						<div class="module clearfix">
+							<h3 class="modtitle">支付方式</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">货到付款</a></li>
+									<li><a href="#">在线支付</a></li>
+									<li><a href="#">分期付款</a></li>
+									<li><a href="#">公司转账</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 box-account">
+						<div class="module clearfix">
+							<h3 class="modtitle">售后服务</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">售后政策</a></li>
+									<li><a href="#">退款说明</a></li>
+									<li><a href="#">返修/退换货</a></li>
+									<li><a href="#">取消订单</a></li>
+									<li><a href="#" target="_blank">价格保护</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 collapsed-block ">
+						<div class="module clearfix">
+							<h3 class="modtitle">联系我们	</h3>
+							<div class="modcontent">
+								<ul class="contact-address">
+									<li><span class="fa fa-map-marker"></span>公司地址:厦门市XXXXXXXXX</li>
+									<li><span class="fa fa-envelope-o"></span> Email: <a href="#"> 59332868@qq.com</a></li>
+									<li><span class="fa fa-phone">&nbsp;</span> 电话 1:XXXX <br>电话 2: XXXX</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+		</section>
+	
+		
+		
+		
+					<!--Back To Top-->
+		<div class="back-to-top"><i class="fa fa-angle-up"></i><span> Top </span></div>
+		
+			
+		<!-- /Footer Bottom Container -->
+		
+		
+	</footer>
+	<!-- //end Footer Container -->
+
+    </div>
+	
+	
+	<!-- Cpanel Block -->
+	
+
+
+	
+<!-- Include Libs & Plugins
+	============================================ -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/themejs/libs.js"></script>
+	<script type="text/javascript" src="js/unveil/jquery.unveil.js"></script>
+	<script type="text/javascript" src="js/countdown/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js"></script>
+	<script type="text/javascript" src="js/datetimepicker/moment.js"></script>
+	<script type="text/javascript" src="js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+	
+	
+	<!-- Theme files
+	============================================ -->
+	
+	
+	<script type="text/javascript" src="js/themejs/so_megamenu.js"></script>
+	<script type="text/javascript" src="js/themejs/addtocart.js"></script>
+	<script type="text/javascript" src="js/themejs/application.js"></script>
+	<script type="text/javascript" src="js/themejs/cpanel.js"></script>	
+	
+</body>
+</html>
+
